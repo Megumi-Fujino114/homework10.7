@@ -1,0 +1,158 @@
+body{
+	width:800px;
+	/*height: 500px;*/
+	font-family: cursive;
+}
+
+.header{
+	/*margin: 0 auto;*/
+	/*display: flex;*/
+	padding:0px;
+	padding-top: 3px;
+    background-color: pink;
+    width: 800px;
+    height: 80px;
+    position: relative;
+}
+
+h1{
+	color: #CC0066;
+	font-size: 40px;
+	margin-top: 25px;
+	/*margin-left: 100px;*/
+	text-align: center
+}
+
+ul{
+	display: flex;
+	justify-content: space-around;
+}
+
+li{
+	margin: 10px;
+	/*margin-top: 20px;*/
+    padding: 20px;
+    width: 50px;
+    border-radius: 30%;
+    color: #fff;
+    background-color: #FFCCFF;
+    text-align: center;
+}
+
+.main-left{
+	float: left;
+	position: relative;
+	background-color: #CCCCFF;
+	width: 200px;
+	height: 400px;
+}
+
+.photo-flame{
+	/*display: inline-flex;*/
+	display: flex;
+	align-items: center;
+	flex-direction:column;
+	padding-top: 10px;
+}
+
+.photo-flame img{
+	margin: 20px;
+	width: 150px;
+	height: 150px;
+	border-radius: 30%;
+	opacity: 0.8;
+}
+
+.main-right{
+	float: right;
+	background-color: #99CCFF;
+	height: 400px;
+	width: 600px;
+}
+
+
+h2{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 100px;
+}
+
+
+p{
+	font-size: 30px;
+	color: #CC0066;
+	text-align: center;
+	clear: :both;
+	background-color: #FFCCCC;
+}
+
+.contact{
+	width: 800px;
+	height: 200px;
+	/*border: solid 1px  black;*/
+	background-color:#FFCCCC;
+	text-align: center;
+	clear: both;
+}
+
+.form-input{
+	display: flex;
+	margin: 20px auto;
+
+}
+
+.form-left{
+	/*display: flex;*/
+	/*flex-flow: column;*/
+	margin-left: 150px;
+}
+
+.input-field1{
+	margin-top: 10px;
+	margin-right: 10px;
+    width: 240px;
+    height: 40px;
+    line-height: 40px;
+    box-sizing: border-box;
+    /*flex-direction: column;*/
+    /*float: left;*/
+}
+
+.input-field2{
+	margin-top: 10px;
+	margin-right: 10px;
+    width: 240px;
+    height: 80px;
+    line-height: 40px;
+    box-sizing: border-box;
+}
+
+
+.button{
+	background-color: #CC6666;
+	/*border: solid 0px: color #CC6666;*/
+	border-radius: 5px;
+	/*margin: 0px;*/
+	/*margin-right: 100px;*/
+	height: 30px;
+	clear: both;
+	/*margin-bottom: 20px;*/
+	cursor: pointer;
+}
+
+.button:hover{
+	background-color: rgba(218,112,214);
+}
+
+footer{
+	background-color: pink;
+	width: 800px;
+	height: 50px;
+	clear: both;
+	color: #CC0066;
+	text-align: center;
+	padding-top:20px;
+	font-size: 30px;
+	/*border: solid 1px  black;*/
+}
